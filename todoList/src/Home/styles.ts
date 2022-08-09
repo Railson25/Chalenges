@@ -66,11 +66,28 @@ export const styles = StyleSheet.create({
         justifyContent: 'space-between',
         top: 55,
     },
+    contentHeaderElements: {
+        flexDirection: "row",
+        justifyContent: 'center',
+        alignItems: 'center',
+        
+    },
+    contentCounter:{
+        left: 8,
+        backgroundColor: '#333333',
+        borderRadius: 50,
+        color: 'white',
+        width: 25,
+        height: 19,
+        justifyContent: 'center',
+        alignItems: "center",
+        
+    },
     contentHeaderTextOne:{
         color: '#4EA8DE',
         fontWeight: '700',
         fontSize: 14,
-        lineHeight: 16.94
+        lineHeight: 16.94,
     },
 
     contentHeaderTextTwo:{
@@ -78,9 +95,8 @@ export const styles = StyleSheet.create({
         fontWeight: '700',
         fontSize: 14,
         lineHeight: 16.94,
-        marginBottom: 20
     },
-    empityList: {
+    emptyList: {
         marginTop: 68,
         justifyContent: "center",
         alignItems: "center",
@@ -90,14 +106,14 @@ export const styles = StyleSheet.create({
         paddingLeft:20,
         paddingRight: 20,
     },
-    empityListTextOne:{
+    emptyListTextOne:{
         marginTop: 16,
         fontSize: 16,
         fontWeight: "700",
         color: '#808080',
         lineHeight: 19.6
     },
-    empityListTextTwo:{
+    emptyListTextTwo:{
         marginTop: 16,
         fontSize: 16,
         color: '#808080',

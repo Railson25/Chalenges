@@ -18,18 +18,24 @@ export function Home() {
             
             <View style={styles.content}>
                 <View style={styles.contentHeader}>
-                    <Text style={styles.contentHeaderTextOne}>Criadas</Text>
-                    <Text style={styles.contentHeaderTextTwo}>Concluidas</Text>
+                    <View style={styles.contentHeaderElements}>
+                        <Text style={styles.contentHeaderTextOne}>Criadas</Text>
+                        <View style={styles.contentCounter}><Text style={{color: '#D9D9D9'}}>0</Text></View>
+                    </View>
+                    <View style={styles.contentHeaderElements}>
+                        <Text style={styles.contentHeaderTextTwo}>Concluidas</Text>
+                        <View style={styles.contentCounter}><Text style={{color: '#D9D9D9'}}>0</Text></View>
+                    </View>
                 </View>
                 
-                <View style={styles.empityList}>
+                <View style={styles.emptyList}>
                     <Image 
                         source={ClipBoard }
                         width={56}
                         height={56}
                     />
-                    <Text style={styles.empityListTextOne}>Você ainda não tem tarefas cadastradas </Text>
-                    <Text style={styles.empityListTextTwo}>Crie tarefas e organize seus itens a fazer</Text>
+                    <Text style={styles.emptyListTextOne}>Você ainda não tem tarefas cadastradas </Text>
+                    <Text style={styles.emptyListTextTwo}>Crie tarefas e organize seus itens a fazer</Text>
                 </View>
             </View>
 
